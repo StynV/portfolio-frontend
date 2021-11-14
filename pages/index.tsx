@@ -1,9 +1,11 @@
-import type { NextPage } from 'next'
+import type { GetServerSideProps, NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Header from '../components//header'
+import Header from '../components/header'
+import Intro from '../components/intro'
+import IntroData from '../interfaces/IntroData'
 
-const Home: NextPage = () => {
+const Home: NextPage<{ data: IntroData[] }> = props => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,11 +16,11 @@ const Home: NextPage = () => {
       <Header  />
       
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Styn Vercauteren
-        </h1>
-
-        
+        {
+          props.data.map((introData, i) => {
+            return <Intro key={i} intro={introData} />
+          })
+        }
       </main>
 
       <footer className={styles.footer}>
@@ -27,5 +29,14 @@ const Home: NextPage = () => {
     </div>
   )
 }
+
+export const getServerSideProps: GetServerSideProps = async () => {
+    const result = await fetch(`https://portfolio-backend-styn.herokuapp.com/data/intro`);
+    const data: IntroData[] = await result.json();
+
+    return {
+      props: { data }
+    };
+};
 
 export default Home

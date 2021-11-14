@@ -1,7 +1,16 @@
-.container {
-  padding: 0 2rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
+@media (min-width: 600px) {
+  .container {
+    padding: 0 2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
 
 .main {
@@ -9,9 +18,7 @@
   padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: 'OpenSans-serif';
 }
 
 .footer {
@@ -23,10 +30,8 @@
   align-items: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.subtitle {
+  margin-top: 10px;
 }
 
 .title,
@@ -52,5 +57,33 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.introText {
+  max-width: 42rem;
+  margin-top: 5rem;
+}
+
+.introFoto {
+  max-width: 40rem;
+  margin-left: 7rem;
+  justify-content: flex-end;
+}
+
+@media (min-width: 600px) {
+  .headerTextRight {
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-grow: 1;
   }
 }
