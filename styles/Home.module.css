@@ -4,12 +4,23 @@
     margin-left: 20rem;
     margin-right: 20rem;
   }
+
+  .headerTextRight {
+    text-align: right;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-grow: 1;
+  }
 }
 
 @media (max-width: 600px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
   }
 }
 
@@ -53,13 +64,6 @@
   max-width: 800px;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
 .intro {
     display: flex;
     flex-direction: row;
@@ -77,13 +81,4 @@
   max-width: 40rem;
   margin-left: 7rem;
   justify-content: flex-end;
-}
-
-@media (min-width: 600px) {
-  .headerTextRight {
-    text-align: right;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    flex-grow: 1;
-  }
 }
