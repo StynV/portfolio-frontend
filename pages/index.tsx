@@ -46,10 +46,12 @@ const Home: NextPage<{
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-    const intro = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/intro`);
+    const { NEXT_PUBLIC_BACKEND_URL } = process.env;
+
+    const intro = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/intro`);
     const introData: IntroData[] = await intro.json();
     
-    const block = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/block`);
+    const block = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/block`);
     const blockData: BlockData[] = await block.json();
     const sortedBlockData: BlockData[] = blockData.sort((a: BlockData, b: BlockData) => a.position - b.position);
 
