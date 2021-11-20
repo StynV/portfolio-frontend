@@ -22,8 +22,6 @@ const Home: NextPage<{
       
       <main className={styles.main}>
         <div>
-
-
         {
           props.introData.map((introData, i) => {
             return <Intro key={i} intro={introData} />
@@ -32,7 +30,11 @@ const Home: NextPage<{
 
         {
           props.sortedBlockData.map((blockData, i) => {
-            return <Block key={i} block={blockData} />
+            if (i % 2 == 0) {
+              return <Block class={styles.blockRight} key={i} block={blockData} />
+            } else {
+              return <Block class={styles.blockLeft} key={i} block={blockData} />
+            }
           })
         }
         </div>        

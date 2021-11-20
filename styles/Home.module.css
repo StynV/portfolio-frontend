@@ -41,35 +41,17 @@
   align-items: center;
 }
 
-.subtitle {
-  margin-top: 10px;
-}
 
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.intro {
+.blockRight, .blockLeft, .intro {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-content: flex-start;
+}
+
+.intro {
+  margin-bottom: 3rem;
 }
 
 .introText {
@@ -81,4 +63,19 @@
   max-width: 40rem;
   margin-left: 7rem;
   justify-content: flex-end;
+}
+
+.blockRight, .blockLeft {
+  width: 1100px;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  padding: 5rem;
+}
+
+.blockRight {
+  margin-left: 3rem;
+}
+
+.blockFoto {
+  margin-left: auto;
 }

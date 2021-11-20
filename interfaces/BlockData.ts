@@ -6,4 +6,5 @@ export default interface BlockData {
     icons: string[],
     position: number,
     backgroundColor: string,
+    image: string,
 }
