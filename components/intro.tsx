@@ -15,7 +15,7 @@ export class Intro extends React.Component<{intro: IntroData}> {
         </div>
         <div className={styles.introFoto}>
           <Image
-            className="object-contain"
+            className="object-contain object-right"
             src={headShot}
             alt="headshot"
             width={400}

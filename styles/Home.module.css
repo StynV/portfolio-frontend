@@ -47,6 +47,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: flex-start;
     align-content: flex-start;
 }
 
@@ -60,9 +61,7 @@
 }
 
 .introFoto {
-  max-width: 40rem;
-  margin-left: 7rem;
-  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .blockRight, .blockLeft {
