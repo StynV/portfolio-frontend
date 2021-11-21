@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Intro from '../components/intro'
 import Block from '../components/block'
+import Footer from '../components/footer'
 import Certificate from '../components/certificate'
 import IntroData from '../interfaces/IntroData'
 import BlockData from '../interfaces/BlockData'
@@ -25,52 +26,47 @@ const Home: NextPage<{
       
       <main className={styles.main}>
         <div>
-        {
-          props.introData.map((introData, i) => {
-            return <Intro key={i} intro={introData} />
-          })
-        }
-
-        {
-          props.sortedBlockData.map((blockData, i) => {
-            if (i % 2 == 0) {
-              return (
-                <Block
-                  class={styles.blockRight}
-                  key={i} block={blockData}
-                  titleClass="text-4xl mb-10 ml-40" 
-                />
-              )
-            } else {
-              return (
-                <Block
-                  class={styles.blockLeft}
-                  key={i}
-                  block={blockData}
-                  titleClass="text-4xl mb-10"
-                />
-              )
-            }
-          })
-        }
-
-        <div>
-          <h1 className="text-4xl mb-10">Udemy certificates</h1>
           {
-            props.certificateData.map((certificateData, i) => {
-              return <Certificate key={i} certificate={certificateData} />
+            props.introData.map((introData, i) => {
+              return <Intro key={i} intro={introData} />
             })
-          }          
-        </div>
+          }
 
+          {
+            props.sortedBlockData.map((blockData, i) => {
+              if (i % 2 == 0) {
+                return (
+                  <Block
+                    class={styles.blockRight}
+                    key={i} block={blockData}
+                    titleClass="text-4xl mb-10 ml-40"
+                  />
+                )
+              } else {
+                return (
+                  <Block
+                    class={styles.blockLeft}
+                    key={i}
+                    block={blockData}
+                    titleClass="text-4xl mb-10"
+                  />
+                )
+              }
+            })
+          }
 
-
+          <div>
+            <h1 className="text-4xl mb-10">Udemy certificates</h1>
+              {
+                props.certificateData.map((certificateData, i) => {
+                  return <Certificate key={i} certificate={certificateData} />
+                })
+            }
+          </div>
         </div>        
       </main>
 
-      <footer className={styles.footer}>
-          Styn.vercauteren@outlook.com
-      </footer>
+      <Footer />
     </div>
   )
 }

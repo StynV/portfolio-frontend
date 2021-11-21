@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export class Certificate extends React.Component<{certificate: CertificateData}> {
     render() {
         return (
-            <div className="w-60 h-60 float-left mr-16 p-5 rounded-3xl" style={{ backgroundColor: this.props.certificate.backgroundColor }}>
+            <div className="w-70 h-60 float-left mr-16 p-5 rounded-3xl" style={{ backgroundColor: this.props.certificate.backgroundColor }}>
                 {
                     this.props.certificate.icons.map((icon, i) => {
                         switch (icon) {
@@ -18,7 +18,7 @@ export class Certificate extends React.Component<{certificate: CertificateData}>
                         }
                     })
                 }
-                <h2 className="text-3xl text-center">{ this.props.certificate.title }</h2>
+                <h2 className="text-2xl text-center">{ this.props.certificate.title }</h2>
                 <p className="text-xl mt-5 max-w-xl"><b>Received: </b>{ this.props.certificate.received }</p>
             </div>
         )

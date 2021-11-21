@@ -1,7 +1,7 @@
 import React from 'react'
 import IntroData from '../interfaces/IntroData'
 import Image from 'next/image'
-import headShot from '../images/20211111_140552.jpg'
+import headShot from '../images/headshot.jpg'
 import styles from '../styles/Home.module.css'
 
 export class Intro extends React.Component<{intro: IntroData}> {

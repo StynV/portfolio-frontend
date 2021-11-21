@@ -14,7 +14,7 @@ const Header = () => {
         </div>
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div className={styles.headerTextRight}>
-            <p>Styn.vercauteren@outlook.com</p>
+            <p>STYN.VERCAUTEREN@OUTLOOK.COM</p>
           </div>
         </div>
       </nav>      
