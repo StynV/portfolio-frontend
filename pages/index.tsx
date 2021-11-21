@@ -35,7 +35,7 @@ const Home: NextPage<{
                 <Block
                   class={styles.blockRight}
                   key={i} block={blockData}
-                  titleClass="text-4xl mb-10 ml-20" 
+                  titleClass="text-4xl mb-10 ml-40" 
                 />
               )
             } else {
