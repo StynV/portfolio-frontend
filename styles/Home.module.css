@@ -11,26 +11,28 @@
     line-height: 1.25rem;
     flex-grow: 1;
   }
+
+  .footer {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
   .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .grid {
-    width: 100%;
+    margin: 10rem;
   }
 
   .headerTextRight {
     text-align: right;
     font-size: 1.8rem;
   }
+
+  .blockRight {
+    margin-left: 5rem;
+  }
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -38,13 +40,10 @@
 
 .footer {
   display: flex;
-  flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
   align-items: center;
 }
-
 
 .blockRight, .blockLeft, .intro {
     display: flex;

@@ -20,8 +20,8 @@ export class FooterLink extends React.Component<
                     src={this.props.src}
                     alt={this.props.text}
                     title={this.props.text}
-                    width={50}
-                    height={50}
+                    width={80}
+                    height={70}
                 />
             </a>
         )
