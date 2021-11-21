@@ -4,12 +4,15 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header'
 import Intro from '../components/intro'
 import Block from '../components/block'
+import Certificate from '../components/certificate'
 import IntroData from '../interfaces/IntroData'
 import BlockData from '../interfaces/BlockData'
+import CertificateData from '../interfaces/CertificateData'
 
 const Home: NextPage<{
   introData: IntroData[],
-  sortedBlockData: BlockData[]
+  sortedBlockData: BlockData[],
+  certificateData: CertificateData[]
 }> = props => {
   return (
     <div className={styles.container}>
@@ -50,6 +53,18 @@ const Home: NextPage<{
             }
           })
         }
+
+        <div>
+          <h1 className="text-4xl mb-10">Udemy certificates</h1>
+          {
+            props.certificateData.map((certificateData, i) => {
+              return <Certificate key={i} certificate={certificateData} />
+            })
+          }          
+        </div>
+
+
+
         </div>        
       </main>
 
@@ -70,10 +85,14 @@ export const getServerSideProps: GetServerSideProps = async () => {
     const blockData: BlockData[] = await block.json();
     const sortedBlockData: BlockData[] = blockData.sort((a: BlockData, b: BlockData) => a.position - b.position);
 
+    const certificates = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/certificate`);
+    const certificateData: CertificateData[] = await certificates.json();
+
     return {
       props: {
         introData,
-        sortedBlockData
+        sortedBlockData,
+        certificateData
       },
     };
 };

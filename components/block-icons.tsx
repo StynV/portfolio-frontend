@@ -10,22 +10,22 @@ export class BlockIcons extends React.Component<{icons: string[], class: string}
                     this.props.icons.map((icon, i) => {
                     switch (icon) {
                         case 'react': {
-                        return <FontAwesomeIcon title="React" className={this.props.class} key={i} icon={faReact} />
+                            return <FontAwesomeIcon title="React" className={this.props.class} key={i} icon={faReact} />
                         }
                         case 'node': {
-                        return <FontAwesomeIcon title="NodeJs" className={this.props.class} key={i} icon={faNode} />
+                            return <FontAwesomeIcon title="NodeJs" className={this.props.class} key={i} icon={faNode} />
                         }
                         case 'java': {
-                        return <FontAwesomeIcon title="Java" className={this.props.class} key={i} icon={faJava} />
+                            return <FontAwesomeIcon title="Java" className={this.props.class} key={i} icon={faJava} />
                         }
                         case 'aws': {
-                        return <FontAwesomeIcon title="AWS" className={this.props.class} key={i} icon={faAws} />
+                            return <FontAwesomeIcon title="AWS" className={this.props.class} key={i} icon={faAws} />
                         }
                         case 'figma': {
-                        return <FontAwesomeIcon title="Figma" className={this.props.class} key={i} icon={faFigma} />
+                            return <FontAwesomeIcon title="Figma" className={this.props.class} key={i} icon={faFigma} />
                         }
                         case 'vuejs': {
-                        return <FontAwesomeIcon title="Vue JS" className={this.props.class} key={i} icon={faVuejs} />
+                            return <FontAwesomeIcon title="Vue JS" className={this.props.class} key={i} icon={faVuejs} />
                         }
                     }
                     })
