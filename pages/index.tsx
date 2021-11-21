@@ -31,9 +31,22 @@ const Home: NextPage<{
         {
           props.sortedBlockData.map((blockData, i) => {
             if (i % 2 == 0) {
-              return <Block class={styles.blockRight} key={i} block={blockData} />
+              return (
+                <Block
+                  class={styles.blockRight}
+                  key={i} block={blockData}
+                  titleClass="text-4xl mb-10 ml-20" 
+                />
+              )
             } else {
-              return <Block class={styles.blockLeft} key={i} block={blockData} />
+              return (
+                <Block
+                  class={styles.blockLeft}
+                  key={i}
+                  block={blockData}
+                  titleClass="text-4xl mb-10"
+                />
+              )
             }
           })
         }
