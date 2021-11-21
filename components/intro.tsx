@@ -13,9 +13,9 @@ export class Intro extends React.Component<{intro: IntroData}> {
             <h2 className="text-4xl mt-10">{ this.props.intro.subtitle }</h2>
             <p className="text-2xl mt-5">{ this.props.intro.body }</p>
         </div>
-        <div className={styles.introFoto}>
+        <div className="ml-auto">
           <Image
-            className="object-contain object-right"
+            className="object-contain object-right rounded-lg"
             src={headShot}
             alt="headshot"
             width={400}

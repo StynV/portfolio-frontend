@@ -2,6 +2,7 @@ import React from 'react'
 import BlockData from '../interfaces/BlockData'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import BlockIcons from './block-icons'
 
 export class Block extends React.Component<{block: BlockData, class: string}> {
   render() {
@@ -12,7 +13,7 @@ export class Block extends React.Component<{block: BlockData, class: string}> {
             <h2 className="text-2xl mt-10">{ this.props.block.subtitle }</h2>
             <p className="text-xl mt-5 max-w-xl">{ this.props.block.body }</p>
             <p className="text-xl mt-5 max-w-xl"><b>Duration:</b> { this.props.block.duration }</p>
-
+            <BlockIcons icons={ this.props.block.icons } class="h-10 w-10 mt-5 mr-2 float-left" />
         </div>
         <div className={styles.blockFoto}>
           <Image
