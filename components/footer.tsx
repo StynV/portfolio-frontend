@@ -10,7 +10,7 @@ export class Footer extends React.Component<{}> {
         return (
             <footer className={styles.footer}>
                 <div>
-                    <div className="mb-3 lg:text-xl text-6xl ">STYN.VERCAUTEREN@OUTLOOK.COM</div>
+                    <div className="mb-3 lg:text-xl text-l ">STYN.VERCAUTEREN@OUTLOOK.COM</div>
                     <div className="text-center">
                         <FooterLink
                             link="https://github.com/StynV/portfolio-backend"

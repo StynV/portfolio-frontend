@@ -8,7 +8,7 @@ const Header = () => {
           <span className="font-semibold text-4xl sm:text-xl tracking-tight">Styn Vercauteren</span>
         </div>
         <div className="headerName w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div className="sm:text-sm text-3xl lg:flex-grow">
+          <div className="sm:text-sm text-2xl lg:flex-grow">
             <p>FULLSTACK DEVELOPER</p>
           </div>
         </div>

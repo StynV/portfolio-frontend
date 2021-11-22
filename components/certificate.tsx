@@ -8,7 +8,10 @@ export class Certificate extends React.Component<{certificate: CertificateData}>
         const iconClass="h-20 w-20 ml-auto mr-auto mb-2";
         
         return (
-            <div className="lg:w-70 lg:h-60 w-80 h-80 float-left mr-16 p-5 rounded-3xl" style={{ backgroundColor: this.props.certificate.backgroundColor }}>
+            <div
+                className="lg:w-70 lg:h-60 w-80 h-80 float-left mr-16 mb-10 lg:mb-0 p-5 rounded-3xl"
+                style={{ backgroundColor: this.props.certificate.backgroundColor }}
+            >
                 {
                     this.props.certificate.icons.map((icon, i) => {
                         switch (icon) {
