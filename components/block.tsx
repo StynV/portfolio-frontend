@@ -17,7 +17,7 @@ export class Block extends React.Component<{
           <div>
               <h2 className="lg:text-3xl text-4xl">{ this.props.block.subtitle }</h2>
               <p className="lg:text-xl text-2xl mt-5 max-w-xl text-justify">{ this.props.block.body }</p>
-              <p className="lg:text-xl text-2xl mt-5 max-w-xl"><b>Duration:</b> { this.props.block.duration }</p>
+              <p className="lg:text-xl text-2xl mt-5 max-w-xl"><b>Experience:</b> { this.props.block.duration }</p>
               <BlockIcons icons={ this.props.block.icons } class="lg:h-10 lg:w-10  h-14 w-14  mt-5 mr-2 float-left" />
           </div>
           <div className={styles.blockFoto}>

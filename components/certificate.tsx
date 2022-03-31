@@ -1,6 +1,6 @@
 import React from 'react'
 import CertificateData from '../interfaces/CertificateData'
-import { faAws, faVuejs } from '@fortawesome/free-brands-svg-icons'
+import { faAws, faVuejs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export class Certificate extends React.Component<{certificate: CertificateData}> {
@@ -20,6 +20,9 @@ export class Certificate extends React.Component<{certificate: CertificateData}>
                             }
                             case 'vuejs': {
                                 return <FontAwesomeIcon title="Vue JS" className={iconClass} key={i} icon={faVuejs} />
+                            }
+                            case 'react': {
+                                return <FontAwesomeIcon title="React" className={iconClass} key={i} icon={faReact} />
                             }
                         }
                     })
