@@ -1,31 +1,29 @@
 import React from 'react'
 import Image from 'next/image'
 
-export class FooterLink extends React.Component<
+const FooterLink: React.FC<
     {
         link: string,
         text: string,
         src: StaticImageData
     }
-> {
-    render() {
-        return (
-            <a
-                href={this.props.link}
-                target="_blank"
-                rel="noreferrer"
-            >
-                <Image
-                    className="object-contain"
-                    src={this.props.src}
-                    alt={this.props.text}
-                    title={this.props.text}
-                    width={80}
-                    height={70}
-                />
-            </a>
-        )
-    }
+> = props => {
+    return (
+        <a
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+        >
+            <Image
+                className="object-contain"
+                src={props.src}
+                alt={props.text}
+                title={props.text}
+                width={80}
+                height={70}
+            />
+        </a>
+    )
 }
 
 export default FooterLink;
