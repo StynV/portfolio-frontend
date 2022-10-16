@@ -2,29 +2,34 @@ import React from 'react'
 import { faReact, faNode, faJava, faAws, faFigma, faVuejs } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const BlockIcons: React.FC<{icons: string[], class: string}> = props => {
+interface IBlockIconsProps {
+    icons: string[],
+    klasse: string
+}
+
+const BlockIcons = ({icons, klasse}: IBlockIconsProps) => {
     return (
         <>
             {
-                props.icons.map((icon, i) => {
+                icons.map((icon, i) => {
                 switch (icon) {
                     case 'react': {
-                        return <FontAwesomeIcon title="React" className={props.class} key={i} icon={faReact} />
+                        return <FontAwesomeIcon title="React" className={klasse} key={i} icon={faReact} />
                     }
                     case 'node': {
-                        return <FontAwesomeIcon title="NodeJs" className={props.class} key={i} icon={faNode} />
+                        return <FontAwesomeIcon title="NodeJs" className={klasse} key={i} icon={faNode} />
                     }
                     case 'java': {
-                        return <FontAwesomeIcon title="Java" className={props.class} key={i} icon={faJava} />
+                        return <FontAwesomeIcon title="Java" className={klasse} key={i} icon={faJava} />
                     }
                     case 'aws': {
-                        return <FontAwesomeIcon title="AWS" className={props.class} key={i} icon={faAws} />
+                        return <FontAwesomeIcon title="AWS" className={klasse} key={i} icon={faAws} />
                     }
                     case 'figma': {
-                        return <FontAwesomeIcon title="Figma" className={props.class} key={i} icon={faFigma} />
+                        return <FontAwesomeIcon title="Figma" className={klasse} key={i} icon={faFigma} />
                     }
                     case 'vuejs': {
-                        return <FontAwesomeIcon title="Vue JS" className={props.class} key={i} icon={faVuejs} />
+                        return <FontAwesomeIcon title="Vue JS" className={klasse} key={i} icon={faVuejs} />
                     }
                 }
                 })

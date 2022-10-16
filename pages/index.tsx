@@ -16,19 +16,19 @@ const Home: NextPage<{
   certificateData: CertificateData[]
 }> = props => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <Header  />
-      
+        
       <main className={styles.main}>
+        <Header  />
+
         <div>
           {
-            props.introData.map((introData, i) => {
-              return <Intro key={i} intro={introData} />
+            props.introData.map((intro, i) => {
+              return <Intro key={i} intro={intro} />
             })
           }
 
@@ -37,7 +37,7 @@ const Home: NextPage<{
               if (i % 2 == 0) {
                 return (
                   <Block
-                    class={styles.blockRight}
+                    klasse={styles.blockRight}
                     key={i} block={blockData}
                     titleClass="text-4xl mb-10 lg:ml-40"
                   />
@@ -45,7 +45,7 @@ const Home: NextPage<{
               } else {
                 return (
                   <Block
-                    class={styles.blockLeft}
+                    klasse={styles.blockLeft}
                     key={i}
                     block={blockData}
                     titleClass="text-4xl mb-10"
@@ -63,11 +63,11 @@ const Home: NextPage<{
                 })
             }
           </div>
-        </div>        
+        </div>
       </main>
-
+        
       <Footer />
-    </div>
+    </>
   )
 }
 

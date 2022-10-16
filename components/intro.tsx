@@ -4,13 +4,17 @@ import Image from 'next/image'
 import headShot from '../images/headshot.jpg'
 import styles from '../styles/Home.module.css'
 
-const Intro: React.FC<{intro: IntroData}> = props => {
+interface IntroProps {
+  intro: IntroData
+}
+
+const Intro = ({intro}: IntroProps) => {
   return (
     <div className={styles.intro}>
       <div className={styles.introText}>
-          <h1 className="text-6xl">{ props.intro.title }</h1>
-          <h2 className="text-4xl mt-10">{ props.intro.subtitle }</h2>
-          <p className="text-2xl mt-5 lg:mb-0 mb-5">{ props.intro.body }</p>
+          <h1 className="text-6xl">{ intro.title }</h1>
+          <h2 className="text-4xl mt-10">{ intro.subtitle }</h2>
+          <p className="text-2xl mt-5 lg:mb-0 mb-5">{ intro.body }</p>
       </div>
       <div className="ml-auto">
         <Image

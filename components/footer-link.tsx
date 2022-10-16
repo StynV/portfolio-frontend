@@ -1,24 +1,24 @@
 import React from 'react'
 import Image from 'next/image'
 
-const FooterLink: React.FC<
-    {
-        link: string,
-        text: string,
-        src: StaticImageData
-    }
-> = props => {
+interface IFooterLinkProps {
+    link: string,
+    text: string,
+    src: StaticImageData
+}
+
+const FooterLink = ({link, text, src}: IFooterLinkProps) => {
     return (
         <a
-            href={props.link}
+            href={link}
             target="_blank"
             rel="noreferrer"
         >
             <Image
                 className="object-contain"
-                src={props.src}
-                alt={props.text}
-                title={props.text}
+                src={src}
+                alt={text}
+                title={text}
                 width={80}
                 height={70}
             />
