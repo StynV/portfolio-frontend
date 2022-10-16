@@ -17,7 +17,7 @@ const Block = ({block, klasse, titleClass}: IBlockProps) => {
       <div className={klasse} style={{ backgroundColor: block.backgroundColor }}>
         <div>
             <h2 className="lg:text-3xl text-4xl">{ block.subtitle }</h2>
-            <p className="lg:text-xl text-2xl mt-5 max-w-7xl text-justify">{ block.body }</p>
+            <p className="lg:text-xl text-2xl mt-5 max-w-6xl text-justify">{ block.body }</p>
             <p className="lg:text-xl text-2xl mt-5 max-w-xl"><b>Experience:</b> { block.duration }</p>
             <BlockIcons icons={ block.icons } klasse="lg:h-10 lg:w-10  h-14 w-14  mt-5 mr-2 float-left" />
         </div>
