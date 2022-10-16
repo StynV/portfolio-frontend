@@ -55,14 +55,14 @@ const Home: NextPage<{
             })
           }
 
-          <div>
+          <>
             <h1 className="text-4xl mb-10">Udemy course completion certificates</h1>
               {
                 props.certificateData.map((certificateData, i) => {
                   return <Certificate key={i} certificate={certificateData} />
                 })
             }
-          </div>
+          </>
         </div>
       </main>
         
