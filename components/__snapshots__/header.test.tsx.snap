@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders 1`] = `
+<div>
+  <header>
+    <nav
+      class="flex items-center justify-between flex-wrap pt-6 max-w-6xl"
+    >
+      <div
+        class="headerName flex items-center flex-shrink-1"
+      >
+        <span
+          class="font-semibold text-4xl sm:text-xl tracking-tight"
+        >
+          Styn Vercauteren
+        </span>
+      </div>
+      <div
+        class="headerName w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+      >
+        <div
+          class="sm:text-sm text-2xl lg:flex-grow"
+        >
+          <p>
+            FULLSTACK DEVELOPER
+          </p>
+        </div>
+      </div>
+      <div
+        class="w-full block flex-grow lg:flex lg:items-center lg:w-auto"
+      >
+        <div
+          class="headerTextRight"
+        >
+          <p>
+            STYN.VERCAUTEREN@OUTLOOK.COM
+          </p>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+`;

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import BlockIcon from './block-icon'
 
-interface IBlockProps {
+export interface IBlockProps {
   block: BlockData,
   klasse: string,
   titleClass: string

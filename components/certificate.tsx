@@ -3,7 +3,7 @@ import CertificateData from '../interfaces/CertificateData'
 import { faAws, faVuejs, faReact } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-interface ICertificateProps {
+export interface ICertificateProps {
     certificate: CertificateData
 }
 
