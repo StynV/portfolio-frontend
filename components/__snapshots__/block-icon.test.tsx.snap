@@ -3,7 +3,7 @@
 exports[`IBlockIconsProps renders AWS icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-VEpacaaaS1pz"
+    aria-labelledby="svg-inline--fa-title-S6hITTOnW4aQ"
     class="svg-inline--fa fa-aws klasse"
     data-icon="aws"
     data-prefix="fab"
@@ -12,7 +12,7 @@ exports[`IBlockIconsProps renders AWS icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-VEpacaaaS1pz"
+      id="svg-inline--fa-title-S6hITTOnW4aQ"
     >
       AWS
     </title>
@@ -27,7 +27,7 @@ exports[`IBlockIconsProps renders AWS icon 1`] = `
 exports[`IBlockIconsProps renders Figma icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-epF8QEfcB9a8"
+    aria-labelledby="svg-inline--fa-title-FIE6xMjvrDlJ"
     class="svg-inline--fa fa-figma klasse"
     data-icon="figma"
     data-prefix="fab"
@@ -36,7 +36,7 @@ exports[`IBlockIconsProps renders Figma icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-epF8QEfcB9a8"
+      id="svg-inline--fa-title-FIE6xMjvrDlJ"
     >
       Figma
     </title>
@@ -51,7 +51,7 @@ exports[`IBlockIconsProps renders Figma icon 1`] = `
 exports[`IBlockIconsProps renders Java icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-BQPW5WjhMgDU"
+    aria-labelledby="svg-inline--fa-title-4aUs89mXmoce"
     class="svg-inline--fa fa-java klasse"
     data-icon="java"
     data-prefix="fab"
@@ -60,7 +60,7 @@ exports[`IBlockIconsProps renders Java icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-BQPW5WjhMgDU"
+      id="svg-inline--fa-title-4aUs89mXmoce"
     >
       Java
     </title>
@@ -75,7 +75,7 @@ exports[`IBlockIconsProps renders Java icon 1`] = `
 exports[`IBlockIconsProps renders Node icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-Npo6frxCZ24w"
+    aria-labelledby="svg-inline--fa-title-zr682v8LfRmk"
     class="svg-inline--fa fa-node klasse"
     data-icon="node"
     data-prefix="fab"
@@ -84,7 +84,7 @@ exports[`IBlockIconsProps renders Node icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-Npo6frxCZ24w"
+      id="svg-inline--fa-title-zr682v8LfRmk"
     >
       NodeJs
     </title>
@@ -99,7 +99,7 @@ exports[`IBlockIconsProps renders Node icon 1`] = `
 exports[`IBlockIconsProps renders React icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-5YKa45JFJUan"
+    aria-labelledby="svg-inline--fa-title-ff8DtKPEygbb"
     class="svg-inline--fa fa-react klasse"
     data-icon="react"
     data-prefix="fab"
@@ -108,7 +108,7 @@ exports[`IBlockIconsProps renders React icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-5YKa45JFJUan"
+      id="svg-inline--fa-title-ff8DtKPEygbb"
     >
       React
     </title>
@@ -123,7 +123,7 @@ exports[`IBlockIconsProps renders React icon 1`] = `
 exports[`IBlockIconsProps renders VueJS icon 1`] = `
 <div>
   <svg
-    aria-labelledby="svg-inline--fa-title-MIFHs5hWCy73"
+    aria-labelledby="svg-inline--fa-title-4AyhDNhj1ipe"
     class="svg-inline--fa fa-vuejs klasse"
     data-icon="vuejs"
     data-prefix="fab"
@@ -132,7 +132,7 @@ exports[`IBlockIconsProps renders VueJS icon 1`] = `
     xmlns="http://www.w3.org/2000/svg"
   >
     <title
-      id="svg-inline--fa-title-MIFHs5hWCy73"
+      id="svg-inline--fa-title-4AyhDNhj1ipe"
     >
       Vue JS
     </title>
