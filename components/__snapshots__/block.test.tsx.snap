@@ -50,7 +50,7 @@ exports[`Block renders 1`] = `
         </span>
         <img
           alt="headshot"
-          class="object-contain"
+          class="object-contain max-w-6xl"
           data-nimg="intrinsic"
           decoding="async"
           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
