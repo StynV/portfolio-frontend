@@ -6,7 +6,7 @@ exports[`Certificate renders 1`] = `
     class="lg:w-70 lg:h-60 w-80 h-80 float-left mx-24 lg:mx-16 lg:mb-8 sm:mb-4 mb-6 p-5 py-10 rounded-3xl"
   >
     <svg
-      aria-labelledby="svg-inline--fa-title-dsI5EFLEIJ5r"
+      aria-labelledby="svg-inline--fa-title-Nw5PBA1qyvuL"
       class="svg-inline--fa fa-aws h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="aws"
       data-prefix="fab"
@@ -15,7 +15,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-dsI5EFLEIJ5r"
+        id="svg-inline--fa-title-Nw5PBA1qyvuL"
       >
         AWS
       </title>
@@ -25,7 +25,7 @@ exports[`Certificate renders 1`] = `
       />
     </svg>
     <svg
-      aria-labelledby="svg-inline--fa-title-ZySFO7K9spZ1"
+      aria-labelledby="svg-inline--fa-title-5Q1Lc9akN40V"
       class="svg-inline--fa fa-vuejs h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="vuejs"
       data-prefix="fab"
@@ -34,7 +34,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-ZySFO7K9spZ1"
+        id="svg-inline--fa-title-5Q1Lc9akN40V"
       >
         Vue JS
       </title>
@@ -44,7 +44,7 @@ exports[`Certificate renders 1`] = `
       />
     </svg>
     <svg
-      aria-labelledby="svg-inline--fa-title-YuYeDZD8CTTM"
+      aria-labelledby="svg-inline--fa-title-yvbZfx2fNrkx"
       class="svg-inline--fa fa-react h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="react"
       data-prefix="fab"
@@ -53,7 +53,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-YuYeDZD8CTTM"
+        id="svg-inline--fa-title-yvbZfx2fNrkx"
       >
         React
       </title>
