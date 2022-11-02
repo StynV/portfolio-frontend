@@ -80,5 +80,8 @@
 }
 
 .blockFoto {
-  margin-left: auto;
+  width: 250px;
+  padding-left: 5rem;
+display: flex;
+align-items: row;
 }
