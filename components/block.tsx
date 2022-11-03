@@ -25,7 +25,7 @@ const Block = ({block, klasse, titleClass}: IBlockProps) => {
         </div>
         <div className={styles.blockFoto}>
           <Image
-            className="object-contain max-w-6xl"
+            className="object-contain"
             src={block.image}
             alt="headshot"
             width={250}

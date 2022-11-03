@@ -27,10 +27,6 @@
   .blockRight, .blockLeft, .intro {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
   }
 
   .footer {
@@ -56,6 +52,17 @@
   }
 
 }
+
+@media (max-width: 1600px) {
+  .blockRight, .blockLeft, .intro {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 
 .main {
   display: flex;
@@ -90,6 +97,6 @@
 }
 
 .blockFoto {
-  width: 250px;
-  padding-left: 5rem;
+  min-width: 200px;
+  margin-left: 5rem;
 }
