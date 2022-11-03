@@ -65,8 +65,9 @@
 .footer {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   border-top: 1px solid #eaeaea;
-  margin-top: 5rem;
   padding-top: 2rem;
   padding-left: 10rem;
   padding-right: 10rem;
