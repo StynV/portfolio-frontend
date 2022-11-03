@@ -12,7 +12,7 @@ const Certificate = ({certificate}: ICertificateProps) => {
     
     return (
         <div
-            className="lg:w-70 lg:h-60 w-80 h-80 float-left lg:mx-16 lg:mb-8 sm:mb-4 mb-6 px-5 py-10 rounded-3xl"
+            className="lg:w-70 lg:h-60 w-80 h-80 float-left lg:mx-2 lg:mb-8 sm:mb-4 mb-6 py-10 rounded-3xl"
             style={{ backgroundColor: certificate.backgroundColor }}
         >
             {
