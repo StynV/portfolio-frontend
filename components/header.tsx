@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <nav className="flex items-center justify-between flex-wrap pt-6 max-w-6xl">
         <div className="headerName flex items-center flex-shrink-1" >
           <span className="font-semibold text-4xl sm:text-xl tracking-tight">Styn Vercauteren</span>
