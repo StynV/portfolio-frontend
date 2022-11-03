@@ -3,10 +3,10 @@
 exports[`Certificate renders 1`] = `
 <div>
   <div
-    class="lg:w-70 lg:h-60 w-80 h-80 float-left mx-24 lg:mx-16 lg:mb-8 sm:mb-4 mb-6 p-5 py-10 rounded-3xl"
+    class="lg:w-70 lg:h-60 w-80 h-80 float-left lg:mx-16 lg:mb-8 sm:mb-4 mb-6 px-5 py-10 rounded-3xl"
   >
     <svg
-      aria-labelledby="svg-inline--fa-title-h1Yc7oY0F5ec"
+      aria-labelledby="svg-inline--fa-title-wl61BaSyCslg"
       class="svg-inline--fa fa-aws h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="aws"
       data-prefix="fab"
@@ -15,7 +15,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-h1Yc7oY0F5ec"
+        id="svg-inline--fa-title-wl61BaSyCslg"
       >
         AWS
       </title>
@@ -25,7 +25,7 @@ exports[`Certificate renders 1`] = `
       />
     </svg>
     <svg
-      aria-labelledby="svg-inline--fa-title-3oLkullIDwTz"
+      aria-labelledby="svg-inline--fa-title-IBD3CAWyOeBc"
       class="svg-inline--fa fa-vuejs h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="vuejs"
       data-prefix="fab"
@@ -34,7 +34,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-3oLkullIDwTz"
+        id="svg-inline--fa-title-IBD3CAWyOeBc"
       >
         Vue JS
       </title>
@@ -44,7 +44,7 @@ exports[`Certificate renders 1`] = `
       />
     </svg>
     <svg
-      aria-labelledby="svg-inline--fa-title-ggyDGSlCdmdg"
+      aria-labelledby="svg-inline--fa-title-jbVp7YaBVRHf"
       class="svg-inline--fa fa-react h-20 w-20 ml-auto mr-auto mb-2"
       data-icon="react"
       data-prefix="fab"
@@ -53,7 +53,7 @@ exports[`Certificate renders 1`] = `
       xmlns="http://www.w3.org/2000/svg"
     >
       <title
-        id="svg-inline--fa-title-ggyDGSlCdmdg"
+        id="svg-inline--fa-title-jbVp7YaBVRHf"
       >
         React
       </title>

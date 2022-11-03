@@ -57,11 +57,13 @@ const Home: NextPage<{
 
           <>
             <h1 className="text-4xl mb-10">Udemy course completion certificates</h1>
+            <div className={styles.certificaten}>
               {
-                props.certificateData.map((certificateData, i) => {
-                  return <Certificate key={i} certificate={certificateData} />
-                })
-            }
+              props.certificateData.map((certificateData, i) => {
+                return <Certificate key={i} certificate={certificateData} />
+              })
+              }
+            </div>
           </>
         </div>
       </main>

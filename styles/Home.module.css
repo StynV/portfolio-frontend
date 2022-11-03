@@ -48,6 +48,13 @@
     font-size: 1.4rem;
   }
 
+  .certificaten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 .main {
