@@ -16,7 +16,7 @@ const Intro = ({intro}: IntroProps) => {
           <h2 className="text-4xl mt-10">{ intro.subtitle }</h2>
           <p className="text-2xl mt-5 lg:mb-0 mb-5">{ intro.body }</p>
       </div>
-      <div className="ml-auto">
+      <div className="lg:ml-auto">
         <Image
           className="object-contain lg:object-right rounded-lg flex-wrap"
           src={headShot}
