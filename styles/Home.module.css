@@ -1,4 +1,4 @@
-@media (min-width: 1050px) {
+@media (min-width: 1150px) {
   .main {
     margin-left: 20rem;
     margin-right: 20rem;
@@ -34,7 +34,7 @@
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1150px) {
   .main {
     margin: 1rem;
   }
